@@ -49,16 +49,17 @@ function Education(props) {
               <Chrono
                 hideControls
                 allowDynamicUpdate
+                focusActiveItemOnLoad
                 useReadMore={false}
                 items={data.education}
                 cardHeight={250}
                 mode={mode}
                 theme={{
                   primary: theme.accentColor,
-                  secondary: theme.accentColor,
+                  secondary: theme.background,
                   cardBgColor: theme.chronoTheme.cardBgColor,
                   cardForeColor: theme.chronoTheme.cardForeColor,
-                  titleColor: theme.chronoTheme.titleColor,
+                  titleColor: theme.chronoTheme.accentColor,
                 }}
               >
                 <div className="chrono-icons">
@@ -67,6 +68,8 @@ function Education(props) {
                       key={education.icon.src}
                       src={education.icon.src}
                       alt={education.icon.alt}
+                      width="400px"
+                      height="400px"
                     />
                   ) : null))}
                 </div>

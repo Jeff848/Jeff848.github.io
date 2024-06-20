@@ -1,149 +1,130 @@
 {
     "projects" : [
         {
-            "image" : "images/projects/portfolio-poster.png",
-            "title": "Dev Portfolio",
-            "bodyText": "- Developer Portfolio Website made in React\n -  Fully customisable and dynamic, easily change data and images.\n - Dark Mode Support",
-            "links": [
-                {
-                    "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/dev-portfolio"
-                },
-                {
-                    "text": "Live",
-                    "href": "https://mayankagarwal.me"
-                }
-            ],
-            "tags" : [
-                "React",
-                "Portfolio",
-                "JavaScript"
-            ]
-        },
-        {
             "image" : "images/projects/caaring-poster.png",
-            "title": "Caaring -  Cab Share App",
+            "title": "OML Alexandria -  In-browser Language Server for OML",
             "bodyText": "- A Cab Sharing web app made using **Django** for **VIT** Students. People can create a new cab or request to join an existing cab.\n - Added User authentication and password reset using **SendGrid**.\n - Deployed on **heroku** using **gunicorn**.",
             "links": [
                 {
                     "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/Caaring"
+                    "href": "https://github.com/0x65-e/oml-alexandria"
                 },
                 {
                     "text": "Live",
-                    "href": "http://caaring.herokuapp.com"
+                    "href": "https://marketplace.visualstudio.com/items?itemName=pteam-ptolemy.oml-alexandria"
                 }
             ],
             "tags" : [
-                "Python",
-                "Django",
-                "BootStrap",
-                "SendGrid",
-                "Heroku",
-                "Gunicorn",
-                "VIT"
+                "Typescript",
+                "Langium",
+                "Oml",
+                "VSCode"
             ]
         },
         {
-            "image" : "images/projects/quiet-hours-poster.jpg",
-            "title": "Quiet Hours App",
-            "bodyText": "- An Android App that **automatically silences** your phone during class hours, designed for **VITians**.\n - Option to select class **slots** and **custom time**.\n - Option to put on Vibrate instead of Silent.",
+            "title": "Qsim Vortex",
+            "bodyText": "- An iOS App that tracks COVID-safe and crowded areas.\n - Worked on the Swift Frontend for the Recommendations Page.",
             "links": [
                 {
                     "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/QuietHours-Android"
+                    "href": "https://github.com/Jeff848/qsim_vortex"
                 }
             ],
             "tags" : [
                 "Java",
-                "Android",
-                "Alarm Manager",
-                "VIT"
+                "Wala",
+                "Static Analysis"
             ]
         },
         {
-            "title": "Secure Chat App",
-            "bodyText": "- An Android App that allows users to send texts in real time.\n - End to End encryption using **RSA** Algorithm.\n - Uses **Firebase** database to store texts.\n - Secured with **Fingerprint** lock.",
+            "title": "ColdGAN Implementation",
+            "bodyText": "- An iOS App that tracks COVID-safe and crowded areas.\n - Worked on the Swift Frontend for the Recommendations Page.",
             "links": [
                 {
                     "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/SecureChatApp"
-                }
-            ],
-            "tags" : [
-                "Java",
-                "Android",
-                "Firebase",
-                "RSA"
-            ]
-        },
-        {
-            "title": "MVVM Sample App",
-            "bodyText": "- An Android App that loads data from mock API and show in both **LinearLayout** and **GridLayout RecyclerView**.\n - Offline support using **Room** DB and **NetworkBoundResource**.\n - Uses the **MVVM** architecture.",
-            "links": [
-                {
-                    "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/mvvm-sample-app"
-                }
-            ],
-            "tags" : [
-                "Kotlin",
-                "Android",
-                "MVVM",
-                "Room",
-                "Coroutines",
-                "Flow",
-                "Hilt-Dagger",
-                "NetworkBoundResource"
-            ]
-        },
-        {
-            "title": "Feed List App",
-            "bodyText": "- An Android App that loads list of feeds from a **paginated** API and shows in a RecyclerView.\n - Uses the **MVVM** architecture.\n - Uses **Paging 3** library along with other Architecture Components.",
-            "links": [
-                {
-                    "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/Paginated-App-Feeds-List"
-                }
-            ],
-            "tags" : [
-                "Kotlin",
-                "Android",
-                "MVVM",
-                "Paging 3",
-                "Coroutines",
-                "Flow"
-            ]
-        },
-        {
-            "title": "Task Tracker",
-            "bodyText": "- A simple Task Tracker web app made with **Angular 12**.\n - Uses **mock JSON server** to get, add, delete or update tasks.",
-            "links": [
-                {
-                    "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/task-tracker-app"
-                }
-            ],
-            "tags" : [
-                "TypeScript",
-                "Angular 12",
-                "JavaScript"
-            ]
-        },
-        {
-            "title": "Image Encryption/Decryption",
-            "bodyText": "- A Web App for Image Encryption and Decryption made in **Django**.\n - Uses **SDES** algorithm for encryption/decryption.",
-            "links": [
-                {
-                    "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/img-encrypt-sdes"
+                    "href": "https://github.com/jonathanbcarlson/CS247Project/blob/main/ColdGAN"
                 }
             ],
             "tags" : [
                 "Python",
-                "Django",
-                "SDES",
-                "Cryptography"
+                "Pytorch",
+                "GAN",
+                "CNN",
+                "Recommendation System"
+            ]
+        },
+        {
+            "title": "VTA File Open",
+            "bodyText": "- An iOS App that tracks COVID-safe and crowded areas.\n - Worked on the Swift Frontend for the Recommendations Page.",
+            "links": [
+                {
+                    "text": "GitHub",
+                    "href": "https://github.com/Jeff848/VTA_Fileopen.git"
+                }
+            ],
+            "tags" : [
+                "Java",
+                "Wala",
+                "Static Analysis"
+            ]
+        },
+        {
+            "title": "NJR AWS CodeGuru Reviewer",
+            "bodyText": "- An iOS App that tracks COVID-safe and crowded areas.\n - Worked on the Swift Frontend for the Recommendations Page.",
+            "links": [
+                {
+                    "text": "GitHub",
+                    "href": "https://github.com/ucladevx/knovigo-ios.git"
+                }
+            ],
+            "tags" : [
+                "AWS Codeguru",
+                "Git",
+                "Static Analysis"
+            ]
+        },
+        {
+            "title": "Knovigo",
+            "bodyText": "- An iOS App that tracks COVID-safe and crowded areas.\n - Worked on the Swift Frontend for the Recommendations Page.",
+            "links": [
+                {
+                    "text": "GitHub",
+                    "href": "https://github.com/ucladevx/knovigo-ios.git"
+                }
+            ],
+            "tags" : [
+                "Swift"
+            ]
+        },
+        {
+            "title": "Noti.fi",
+            "bodyText": "- A simple image-based reminder website with email signup. \n - Users are sent reminders via push notifications, email and text, as well as repeated weekly/monthly reminders \n - Worked on the backend stack of the project",
+            "links": [
+                {
+                    "text": "GitHub",
+                    "href": "https://github.com/Jeff848/CS97-photo-app.git"
+                }
+            ],
+            "tags" : [
+                "Node.js",
+                "React.js",
+                "MongoDB",
+                "Express.js",
+                "JavaScript",
+                "Heroku"
+            ]
+        },
+        {
+            "title": "Reminder Bot",
+            "bodyText": "- A discord reminder bot that parses a spreadsheet and pings a reminder at the specified time.",
+            "links": [
+                {
+                    "text": "GitHub",
+                    "href": "https://github.com/Jeff848/reminder_bot.git"
+                }
+            ],
+            "tags" : [
+                "Discord.py"
             ]
         }
     ]

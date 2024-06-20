@@ -1,0 +1,26 @@
+{
+    "publications" : [
+        {
+            "image" : "images/projects/portfolio-poster.png",
+            "title": "Efficient Quantum Block Encoding of Dense, Low Entropy Data",
+            "bodyText": "- \n -  Fully customisable and dynamic, easily change data and images.\n - Dark Mode Support",
+            "links": [
+                {
+                    "text": "GitHub",
+                    "href": "https://github.com/Jeff848/column_block_encoding"
+                },
+                {
+                    "text": "Live",
+                    "href": "https://escholarship.org/uc/item/2tp994bw"
+                }
+            ],
+            "tags" : [
+                "Quantum Computing",
+                "Block Encodings",
+                "Binary Decision Diagram",
+                "Quantum State Preparation",
+                "Quantum Linear Algebra"
+            ]
+        }
+    ]
+}
