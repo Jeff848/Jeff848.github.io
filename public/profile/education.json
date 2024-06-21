@@ -1,0 +1,30 @@
+{
+    "education":[
+        {
+            "title": "Sep 2023 - Jun 2024",
+            "cardTitle": "MS, Computer Science",
+            "cardSubtitle":"UCLA",
+            "cardDetailedText": "GPA - 3.86",
+            "icon" : {
+                "src": "images/education/ucla.png"
+            }
+        },
+        {
+            "title": "Sep 2019 - Jun 2023",
+            "cardTitle": "BS, Computer Science and Engineering",
+            "cardSubtitle":"UCLA",
+            "cardDetailedText": "GPA - 3.9",
+            "icon" : {
+                "src": "images/education/ucla.png"
+            }
+        },
+        {
+            "title": "June 2019",
+            "cardTitle": "Homestead High School",
+            "cardDetailedText": "GPA - 4.0",
+            "icon" : {
+                "src": "images/education/homestead.png"
+            }
+        }
+    ]
+}

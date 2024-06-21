@@ -1,0 +1,99 @@
+{
+    "intro": "I love to learn new things and experiment with new technologies.\nThese are some of the major languages, technologies, tools and platforms I have worked with:",
+    "skills": [{
+     
+            "title": "Languages & Databases",
+            "items" : [
+     
+                {
+                    "icon": "images/skills/java.png",
+                    "title": "Java"
+                },
+                {
+                    "icon": "images/skills/cpp.png",
+                    "title": "C++"
+                },
+                {
+                    "icon": "images/skills/js.png",
+                    "title": "JavaScript"
+                },
+                {
+                    "icon": "images/skills/python.png",
+                    "title": "Python"
+                },
+                {
+                    "icon": "images/skills/cpp.png",
+                    "title": "RISCV Assembly"
+                },
+                {
+                    "icon": "images/skills/cpp.png",
+                    "title": "Matlab"
+                }
+        ]},
+        {
+            "title": "Frameworks & Technologies",
+            "items" : [
+                {
+                    "icon": "images/skills/linux.png",
+                    "title": "Linux"
+                },
+                {
+                    "icon": "images/skills/mongodb.png",
+                    "title": "MongoDB"
+                },
+                {
+                    "icon": "images/skills/react.png",
+                    "title": "React"
+                },
+                {
+                    "icon": "images/skills/nodejs.png",
+                    "title": "Nodejs"
+                },
+                {
+                    "icon": "images/skills/cuda.png",
+                    "title": "CUDA"
+                },
+                {
+                    "icon": "images/skills/arduino.png",
+                    "title": "Arduino"
+                },
+                {
+                    "icon": "images/skills/qiskit.png",
+                    "title": "Qiskit"
+                },
+                {
+                    "icon": "images/skills/llvm.png",
+                    "title": "LLVM"
+                },
+                {
+                    "icon": "images/skills/agile.png",
+                    "title": "Agile"
+                }
+            ]
+        },
+        {
+            "title" : "Tools & Platforms",
+            "items": [
+                {
+                    "icon": "images/skills/jira.png",
+                    "title": "Jira"
+                },
+                {
+                    "icon": "images/skills/git.png",
+                    "title": "Git"
+                },
+                {
+                    "icon": "images/skills/docker.png",
+                    "title": "Docker"
+                },
+                {
+                    "icon": "images/skills/kubernetes.png",
+                    "title": "Kubernetes"
+                },
+                {
+                    "icon": "images/skills/aws.png",
+                    "title": "AWS"
+                }
+            ]
+    }
+]}

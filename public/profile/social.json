@@ -1,0 +1,16 @@
+{
+    "social": [
+        {
+            "network" : "linkedin",
+            "href": "https://www.linkedin.com/in/jeffrey-ma-sunnyvale/"
+        },
+        {
+            "network" : "github",
+            "href": "https://github.com/Jeff848"
+        },
+        {
+            "network" : "email",
+            "href": "mailto:jeffreyma.wii@gmail.com"
+        }
+    ]
+}

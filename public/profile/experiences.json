@@ -1,0 +1,49 @@
+{
+    "experiences": [
+        {
+            "title": "Design Verification Intern",
+            "subtitle": "Rivos Inc",
+            "workType": "Internship",
+            "workDescription": [
+                "Created new framework for testgen of programmable core and hardware accelerator",
+                "Utilized producer consumer model to manage data dependencies in generated assembly from config",
+                "Created tests to expose bugs in RTL design, covering all major accelerated operations"
+            ],
+            "dateText": "06/2023 – 11/2023"
+        },
+        {
+            "title": "Software Dev Engineer Intern",
+            "subtitle": "Amazon",
+            "workType": "Internship",
+            "workDescription": [
+                "Designed and programmed system for recommending external transaction processors using ML",
+                "Utilized AWS Cloud Development Kit to programmatically create and bootstrap AWS resources",
+                "Implemented ML model and database, using AWS SDK to interact with created resources"
+            ],
+            "dateText": "06/2022 – 09/2022"
+        },
+        {
+            "title": "Cyber Security Intern",
+            "subtitle": "The Aerospace Corporation",
+            "workType": "Internship",
+            "workDescription": [
+                "Implemented static analysis tool to analyze control and data flow for vulnerabilities in C code",
+                "Set up Kubernetes cluster, vulnerable deployment, load balancer and ingress controller for testing",
+                "Exploited critical security flaws with Kubernetes clusters and implemented security controls",
+                "Coded VBA Macros to automate documentation for security controls"
+            ],
+            "dateText": "06/2021 – 09/2021"
+        },
+        {
+            "title": "Junior Software Engineer",
+            "subtitle": "Alcatera",
+            "workType": "Internship",
+            "workDescription": [
+                "Prototyped a light mode theme and admin panel features using Figma",
+                "Utilized HTML, CSS and Javascript with the Vue framework to develop UI features",
+                "Implemented Role Based Access Control system for admin panel using Express and MongoDB"
+            ],
+            "dateText": "06/2020 – 05/2021"
+        }
+    ]
+}

@@ -1,0 +1,30 @@
+{
+    "publications" : [
+        {
+            "image" : "images/publications/efficientbe.png",
+            "title": "Efficient Quantum Block Encoding of Dense, Low Entropy Data",
+            "bodyText": "Block Encodings are a key portion of QSVT algorithms, and efficient block encodings could enable quantum advantage for various linear algebraic operations. Dense, low entropy matrices are a potential target for said accelerated linear algebraic operations. In the paper, a new paradigm for developing block encoding algorithms is introduced, motivated by reductions between the various quantum data loading problems of quantum state preparation, controlled state preparation, and block encodings. Through this paradigm, we introduce three new block encoding algorithms that improve on circuit depth over the previous SoTA and baseline algorithms. \n - Master's Thesis at UCLA \n - Advisor Jens Palsberg",
+            "links": [
+                {
+                    "text": "GitHub",
+                    "href": "https://github.com/Jeff848/column_block_encoding"
+                },
+                {
+                    "text": "Paper",
+                    "href": "https://escholarship.org/uc/item/2tp994bw"
+                },
+                {
+                    "text": "Website",
+                    "href": ""
+                }
+            ],
+            "tags" : [
+                "Quantum Computing",
+                "Block Encodings",
+                "Binary Decision Diagram",
+                "Quantum State Preparation",
+                "Quantum Linear Algebra"
+            ]
+        }
+    ]
+}
