@@ -1,27 +1,21 @@
-import React, { useState, useEffect, useContext } from 'react';
-import { Container, Row, Button } from 'react-bootstrap';
-import { ThemeContext } from 'styled-components';
+import React, { useState, useEffect } from 'react';
+import { Container, Row } from 'react-bootstrap';
 import PropTypes from 'prop-types';
 import Fade from 'react-reveal/Fade';
 import Header from './Header';
 import endpoints from '../constants/endpoints';
-import ProjectCard from './projects/ProjectCard';
+import ProjectCard from './publications/ProjectCard';
 import FallbackSpinner from './FallbackSpinner';
 
 const styles = {
   containerStyle: {
     marginBottom: 25,
   },
-  showMoreStyle: {
-    margin: 25,
-  },
 };
 
-const Projects = (props) => {
-  const theme = useContext(ThemeContext);
+const Publications = (props) => {
   const { header } = props;
   const [data, setData] = useState(null);
-  const [showMore, setShowMore] = useState(false);
 
   useEffect(() => {
     fetch(endpoints.publications, {
@@ -31,7 +25,7 @@ const Projects = (props) => {
       .then((res) => setData(res))
       .catch((err) => err);
   }, []);
-  const numberOfItems = showMore && data ? data.length : 6;
+  const numberOfItems = data ? data.length : 6;
   return (
     <>
       <Header title={header} />
@@ -39,7 +33,7 @@ const Projects = (props) => {
         ? (
           <div className="section-content-container">
             <Container style={styles.containerStyle}>
-              <Row xs={1} sm={1} md={2} lg={3} className="g-4">
+              <Row xs={1} sm={100} md={200} lg={100} className="g-4">
                 {data.publications?.slice(0, numberOfItems).map((project) => (
                   <Fade key={project.title}>
                     <ProjectCard project={project} />
@@ -47,16 +41,6 @@ const Projects = (props) => {
                 ))}
               </Row>
 
-              {!showMore
-                && (
-                <Button
-                  style={styles.showMoreStyle}
-                  variant={theme.bsSecondaryVariant}
-                  onClick={() => setShowMore(true)}
-                >
-                  show more
-                </Button>
-                )}
             </Container>
           </div>
         ) : <FallbackSpinner /> }
@@ -64,8 +48,8 @@ const Projects = (props) => {
   );
 };
 
-Projects.propTypes = {
+Publications.propTypes = {
   header: PropTypes.string.isRequired,
 };
 
-export default Projects;
+export default Publications;

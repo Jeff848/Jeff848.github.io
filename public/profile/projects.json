@@ -1,9 +1,9 @@
 {
     "projects" : [
         {
-            "image" : "images/projects/caaring-poster.png",
+            "image" : "images/projects/oml.png",
             "title": "OML Alexandria -  In-browser Language Server for OML",
-            "bodyText": "- A Cab Sharing web app made using **Django** for **VIT** Students. People can create a new cab or request to join an existing cab.\n - Added User authentication and password reset using **SendGrid**.\n - Deployed on **heroku** using **gunicorn**.",
+            "bodyText": "- Project lead for class project to create in-browser language server for specification language OML. \n - Implemented backend features such as dynamic renaming, annotated hover, cross references, etc.",
             "links": [
                 {
                     "text": "GitHub",
@@ -22,8 +22,9 @@
             ]
         },
         {
+            "image" : "images/projects/qsim-vortex.png",
             "title": "Qsim Vortex",
-            "bodyText": "- An iOS App that tracks COVID-safe and crowded areas.\n - Worked on the Swift Frontend for the Recommendations Page.",
+            "bodyText": "- Implementation of accelerated quantum statevector simulation on the open-source Vortex GPGPU simulator (inspired by cuQuantum sdk) \n - Worked on the distributed gate application and index swap.",
             "links": [
                 {
                     "text": "GitHub",
@@ -31,14 +32,17 @@
                 }
             ],
             "tags" : [
-                "Java",
-                "Wala",
-                "Static Analysis"
+                "C++",
+                "CUDA",
+                "cuQuantum sdk",
+                "GPGPU microarchitecture",
+                "Parallel Programming",
+                "ISA extension"
             ]
         },
         {
             "title": "ColdGAN Implementation",
-            "bodyText": "- An iOS App that tracks COVID-safe and crowded areas.\n - Worked on the Swift Frontend for the Recommendations Page.",
+            "bodyText": "- Implementation of ColdGAN Paper in Pytorch for use in an augmented approach to dealing with the cold-start problem for recommendation systems \n - Coded using the CNN GAN pytorch example as a starting point.",
             "links": [
                 {
                     "text": "GitHub",
@@ -55,7 +59,7 @@
         },
         {
             "title": "VTA File Open",
-            "bodyText": "- An iOS App that tracks COVID-safe and crowded areas.\n - Worked on the Swift Frontend for the Recommendations Page.",
+            "bodyText": "- Implemented static analysis algorithms using Wala in order to catch “File not closed” errors. \n - Implemented bytecode injection using Wala shrike in order to fix “File not closed” errors automatically",
             "links": [
                 {
                     "text": "GitHub",
@@ -70,11 +74,11 @@
         },
         {
             "title": "NJR AWS CodeGuru Reviewer",
-            "bodyText": "- An iOS App that tracks COVID-safe and crowded areas.\n - Worked on the Swift Frontend for the Recommendations Page.",
+            "bodyText": "- AWS CodeGuru scripts for analyzing all NJR projects and parse security flaws from the CodeGuru Results.",
             "links": [
                 {
                     "text": "GitHub",
-                    "href": "https://github.com/ucladevx/knovigo-ios.git"
+                    "href": "https://github.com/Jeff848/njr_incremental"
                 }
             ],
             "tags" : [
@@ -98,7 +102,7 @@
         },
         {
             "title": "Noti.fi",
-            "bodyText": "- A simple image-based reminder website with email signup. \n - Users are sent reminders via push notifications, email and text, as well as repeated weekly/monthly reminders \n - Worked on the backend stack of the project",
+            "bodyText": "- A simple image-based reminder website - Users are sent reminders via push notifications, email and text, as well as repeated weekly/monthly reminders \n - Implemented the backend features of this project",
             "links": [
                 {
                     "text": "GitHub",

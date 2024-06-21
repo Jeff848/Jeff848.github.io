@@ -51,7 +51,7 @@ const ProjectCard = (props) => {
         text={theme.bsSecondaryVariant}
       >
         <div className="card-image">
-          <Card.Img variant="top" src={project?.image} />
+          <Card.Img width={0.5} variant="top" src={project?.image} />
         </div>
         <Card.Body>
           <Card.Title style={styles.cardTitleStyle}>{project.title}</Card.Title>
