@@ -1,149 +1,134 @@
 {
     "projects" : [
         {
-            "image" : "images/projects/portfolio-poster.png",
-            "title": "Dev Portfolio",
-            "bodyText": "- Developer Portfolio Website made in React\n -  Fully customisable and dynamic, easily change data and images.\n - Dark Mode Support",
+            "image" : "images/projects/oml.png",
+            "title": "OML Alexandria -  In-browser Language Server for OML",
+            "bodyText": "- Project lead for class project to create in-browser language server for specification language OML. \n - Implemented backend features such as dynamic renaming, annotated hover, cross references, etc.",
             "links": [
                 {
                     "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/dev-portfolio"
+                    "href": "https://github.com/0x65-e/oml-alexandria"
                 },
                 {
                     "text": "Live",
-                    "href": "https://mayankagarwal.me"
+                    "href": "https://marketplace.visualstudio.com/items?itemName=pteam-ptolemy.oml-alexandria"
                 }
             ],
             "tags" : [
-                "React",
-                "Portfolio",
-                "JavaScript"
+                "Typescript",
+                "Langium",
+                "Oml",
+                "VSCode"
             ]
         },
         {
-            "image" : "images/projects/caaring-poster.png",
-            "title": "Caaring -  Cab Share App",
-            "bodyText": "- A Cab Sharing web app made using **Django** for **VIT** Students. People can create a new cab or request to join an existing cab.\n - Added User authentication and password reset using **SendGrid**.\n - Deployed on **heroku** using **gunicorn**.",
+            "image" : "images/projects/qsim-vortex.png",
+            "title": "Qsim Vortex",
+            "bodyText": "- Implementation of accelerated quantum statevector simulation on the open-source Vortex GPGPU simulator (inspired by cuQuantum sdk) \n - Worked on the distributed gate application and index swap.",
             "links": [
                 {
                     "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/Caaring"
-                },
+                    "href": "https://github.com/Jeff848/qsim_vortex"
+                }
+            ],
+            "tags" : [
+                "C++",
+                "CUDA",
+                "cuQuantum sdk",
+                "GPGPU microarchitecture",
+                "Parallel Programming",
+                "ISA extension"
+            ]
+        },
+        {
+            "title": "ColdGAN Implementation",
+            "bodyText": "- Implementation of ColdGAN Paper in Pytorch for use in an augmented approach to dealing with the cold-start problem for recommendation systems \n - Coded using the CNN GAN pytorch example as a starting point.",
+            "links": [
                 {
-                    "text": "Live",
-                    "href": "http://caaring.herokuapp.com"
+                    "text": "GitHub",
+                    "href": "https://github.com/jonathanbcarlson/CS247Project/blob/main/ColdGAN"
                 }
             ],
             "tags" : [
                 "Python",
-                "Django",
-                "BootStrap",
-                "SendGrid",
-                "Heroku",
-                "Gunicorn",
-                "VIT"
+                "Pytorch",
+                "GAN",
+                "CNN",
+                "Recommendation System"
             ]
         },
         {
-            "image" : "images/projects/quiet-hours-poster.jpg",
-            "title": "Quiet Hours App",
-            "bodyText": "- An Android App that **automatically silences** your phone during class hours, designed for **VITians**.\n - Option to select class **slots** and **custom time**.\n - Option to put on Vibrate instead of Silent.",
+            "title": "VTA File Open",
+            "bodyText": "- Implemented static analysis algorithms using Wala in order to catch “File not closed” errors. \n - Implemented bytecode injection using Wala shrike in order to fix “File not closed” errors automatically",
             "links": [
                 {
                     "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/QuietHours-Android"
+                    "href": "https://github.com/Jeff848/VTA_Fileopen.git"
                 }
             ],
             "tags" : [
                 "Java",
-                "Android",
-                "Alarm Manager",
-                "VIT"
+                "Wala",
+                "Static Analysis"
             ]
         },
         {
-            "title": "Secure Chat App",
-            "bodyText": "- An Android App that allows users to send texts in real time.\n - End to End encryption using **RSA** Algorithm.\n - Uses **Firebase** database to store texts.\n - Secured with **Fingerprint** lock.",
+            "title": "NJR AWS CodeGuru Reviewer",
+            "bodyText": "- AWS CodeGuru scripts for analyzing all NJR projects and parse security flaws from the CodeGuru Results.",
             "links": [
                 {
                     "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/SecureChatApp"
+                    "href": "https://github.com/Jeff848/njr_incremental"
                 }
             ],
             "tags" : [
-                "Java",
-                "Android",
-                "Firebase",
-                "RSA"
+                "AWS Codeguru",
+                "Git",
+                "Static Analysis"
             ]
         },
         {
-            "title": "MVVM Sample App",
-            "bodyText": "- An Android App that loads data from mock API and show in both **LinearLayout** and **GridLayout RecyclerView**.\n - Offline support using **Room** DB and **NetworkBoundResource**.\n - Uses the **MVVM** architecture.",
+            "title": "Knovigo",
+            "bodyText": "- An iOS App that tracks COVID-safe and crowded areas.\n - Worked on the Swift Frontend for the Recommendations Page.",
             "links": [
                 {
                     "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/mvvm-sample-app"
+                    "href": "https://github.com/ucladevx/knovigo-ios.git"
                 }
             ],
             "tags" : [
-                "Kotlin",
-                "Android",
-                "MVVM",
-                "Room",
-                "Coroutines",
-                "Flow",
-                "Hilt-Dagger",
-                "NetworkBoundResource"
+                "Swift"
             ]
         },
         {
-            "title": "Feed List App",
-            "bodyText": "- An Android App that loads list of feeds from a **paginated** API and shows in a RecyclerView.\n - Uses the **MVVM** architecture.\n - Uses **Paging 3** library along with other Architecture Components.",
+            "title": "Noti.fi",
+            "bodyText": "- A simple image-based reminder website - Users are sent reminders via push notifications, email and text, as well as repeated weekly/monthly reminders \n - Implemented the backend features of this project",
             "links": [
                 {
                     "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/Paginated-App-Feeds-List"
+                    "href": "https://github.com/Jeff848/CS97-photo-app.git"
                 }
             ],
             "tags" : [
-                "Kotlin",
-                "Android",
-                "MVVM",
-                "Paging 3",
-                "Coroutines",
-                "Flow"
+                "Node.js",
+                "React.js",
+                "MongoDB",
+                "Express.js",
+                "JavaScript",
+                "Heroku"
             ]
         },
         {
-            "title": "Task Tracker",
-            "bodyText": "- A simple Task Tracker web app made with **Angular 12**.\n - Uses **mock JSON server** to get, add, delete or update tasks.",
+            "title": "Reminder Bot",
+            "bodyText": "- A discord reminder bot that parses a spreadsheet and pings a reminder at the specified time.",
             "links": [
                 {
                     "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/task-tracker-app"
+                    "href": "https://github.com/Jeff848/reminder_bot.git"
                 }
             ],
             "tags" : [
-                "TypeScript",
-                "Angular 12",
-                "JavaScript"
-            ]
-        },
-        {
-            "title": "Image Encryption/Decryption",
-            "bodyText": "- A Web App for Image Encryption and Decryption made in **Django**.\n - Uses **SDES** algorithm for encryption/decryption.",
-            "links": [
-                {
-                    "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/img-encrypt-sdes"
-                }
-            ],
-            "tags" : [
-                "Python",
-                "Django",
-                "SDES",
-                "Cryptography"
+                "Discord.py"
             ]
         }
     ]

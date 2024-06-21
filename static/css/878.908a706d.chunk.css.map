@@ -1,0 +1,1 @@
+{"version":3,"file":"static/css/878.908a706d.chunk.css","mappings":"AAAA,YAEI,gBAAiB,CACjB,iBAAkB,CAFlB,eAGJ","sources":["css/projectCard.css"],"sourcesContent":[".card-image {\n    max-width: 500px;\n    margin-left: auto;\n    margin-right: auto;\n}\n\n"],"names":[],"sourceRoot":""}
