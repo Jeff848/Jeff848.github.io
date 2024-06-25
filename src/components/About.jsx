@@ -1,37 +1,70 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useContext } from 'react';
 import ReactMarkdown from 'react-markdown';
 import { Container, Col, Row } from 'react-bootstrap';
+import Collapsible from 'react-collapsible';
 import PropTypes from 'prop-types';
+import { ThemeContext } from 'styled-components';
 import Fade from 'react-reveal';
 import Header from './Header';
 import endpoints from '../constants/endpoints';
 import FallbackSpinner from './FallbackSpinner';
-
-const styles = {
-  introTextContainer: {
-    margin: 10,
-    flexDirection: 'column',
-    whiteSpace: 'pre-wrap',
-    textAlign: 'left',
-    fontSize: '1.2em',
-    fontWeight: 500,
-  },
-  introImageContainer: {
-    margin: 10,
-    justifyContent: 'center',
-    alignItems: 'center',
-    display: 'flex',
-  },
-};
+import '../css/about.css';
 
 function About(props) {
   const { header } = props;
   const [data, setData] = useState(null);
+  const [openData, setOpen] = useState(null);
+  const theme = useContext(ThemeContext);
 
-  const parseIntro = (text) => (
-    <ReactMarkdown
-      children={text}
-    />
+  const handleTriggerClick = (name) => {
+    setOpen(name);
+  };
+
+  const styles = {
+    introTextContainer: {
+      margin: 10,
+      flexDirection: 'column',
+      whiteSpace: 'pre-wrap',
+      fontSize: '1.0em',
+      fontWeight: 500,
+    },
+    introImageContainer: {
+      margin: 10,
+      justifyContent: 'center',
+      alignItems: 'center',
+      display: 'flex',
+    },
+    introTriggerContainer: {
+      content: '\u2796',
+      backgroundColor: theme.accentColor,
+      color: 'white',
+      margin: '10px',
+      fontSize: '20px',
+      cursor: 'pointer',
+      padding: '18px 200px',
+      width: '100%',
+      border: 'none',
+      textAlign: 'left',
+      outline: 'none',
+      boxSizing: 'border-box',
+    },
+  };
+
+  const parseData = (text, trig) => (
+    <Collapsible
+      onTriggerOpening={() => handleTriggerClick(trig)}
+      trigger={trig}
+      className="collapsible-tab"
+      triggerOpenedClassName="collapsible-tab-open"
+      contentOuterClassName="markdown-tab-open"
+      triggerClassName="collapsible-tab-close"
+      open={openData === trig}
+    >
+      <ReactMarkdown
+        children={text}
+        className="markdown-tab"
+      />
+    </Collapsible>
   );
 
   useEffect(() => {
@@ -53,7 +86,10 @@ function About(props) {
               <Fade>
                 <Row>
                   <Col style={styles.introTextContainer}>
-                    {parseIntro(data.about)}
+                    {parseData(data.about, 'About')}
+                    {parseData(data.passion, 'Passion')}
+                    {parseData(data.problemsolving, 'Problem Solving')}
+                    {parseData(data.teamwork, 'Teamwork')}
                   </Col>
                   <Col style={styles.introImageContainer}>
                     <div className="profile-image">
@@ -61,6 +97,7 @@ function About(props) {
                     </div>
                   </Col>
                 </Row>
+
               </Fade>
             )
             : <FallbackSpinner />}
